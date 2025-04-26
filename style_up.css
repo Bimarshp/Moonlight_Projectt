@@ -76,16 +76,23 @@ body {
 
 .btn:hover {
     background-color: #ffca28;
+    color: #006656;
+    
     transform: translateY(-2px);
 }
 
 .btn-secondary {
     background-color: #1a237e;
+  
     color: white;
 }
-
+.btn-primary:hover{
+    background-color: #ffc107;
+    color: #006656;
+}
 .btn-secondary:hover {
-    background-color: #283593;
+    color:#283593;
+    background-color: #ffc107;
 }
 
 /* ===== Top Bar ===== */
@@ -109,7 +116,10 @@ body {
 }
 
 .top-bar a:hover {
-    color: red;
+   
+    color: yellow;
+    
+   
 }
 
 /* ===== Header & Navigation ===== */
@@ -170,7 +180,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffeb3b;
+    color: #006656;
 }
 #navbar{
     display: flexbox;
@@ -425,10 +435,24 @@ min-width: 60px;
     font-weight: bold;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-
-.best-pack {
-    color: white;
+#best-pack .btn:hover {
+    background-color: #1a237e;
+    color: #ffc107;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
+.best-pack{
+    color: #ffc107;
+}
+
+/* .best-pack span {
+    color: rgb(255, 30, 0);
+    background-color: #ffc107;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+
+} */
 
 /* ===== Channels Section ===== */
 .channels {
@@ -511,6 +535,12 @@ min-width: 60px;
 }
 
 /* ===== Coverage ===== */
+
+.check_area:hover{
+    background-color: #ffc107;
+    color: #1a237e;
+}
+
 .coverage {
     background-color: #f5f5f5;
     text-align: center;
